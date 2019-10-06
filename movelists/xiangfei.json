@@ -1,0 +1,116 @@
+{
+  "names": {
+    "default": {
+      "roman": "Xiangfei"
+    },
+    "japan": {
+      "roman": "Xiangfei",
+      "original": "李 香緋"
+    }
+  },
+  "images": {
+    "face": "xiangfei.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Kadoma",
+        "input": "{close}, :b: {or} :f:+[C]"
+      },
+      {
+        "name": "Ryokuchi Koen",
+        "input": "{close}, :b: {or} :f:+[D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Soshoda",
+        "input": ":f:+[A]"
+      },
+      {
+        "name": "Kyuho Kosentai",
+        "input": ":f:+[B]"
+      },
+      {
+        "name": "Fukuho Kosentai",
+        "input": ":df:+[D]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Nanba",
+        "input": ":qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Senri Chuo",
+        "input": ":qcf:+[B]"
+      },
+      {
+        "name": "Kanku",
+        "input": ":qcf:+[B]",
+        "after": "Senri Chuo"
+      },
+      {
+        "name": "Senri Chuo Shinsaiha",
+        "input": ":qcf:+[D]"
+      },
+      {
+        "name": "Tenpozan",
+        "input": ":dp:+[B] {or} [D]"
+      },
+      {
+        "name": "Banpaku Koen",
+        "input": ":hcb::f:+[A] {or} [C]"
+      },
+      {
+        "name": "Ekisuho",
+        "input": ":qcb:+[A] {or} [C]",
+        "after": "Banpaku Koen"
+      },
+      {
+        "name": "Esaka: Upper",
+        "input": "{duringOpponentAttack}, [A] ~ :u:"
+      },
+      {
+        "name": "Esaka: Middle",
+        "input": "{duringOpponentAttack}, [A] ~ :f:"
+      },
+      {
+        "name": "Esaka: Lower",
+        "input": "{duringOpponentAttack}, [A] ~ :d:"
+      }
+    ],
+    "{desperationMove}": [
+      {
+        "name": "Cho Pai Long",
+        "input": "[A]+[C] > :b::df:+[C] > :b:+[C]"
+      },
+      {
+        "name": "Dai Tetsujin",
+        "input": ":qcf::df::qcb:+[B] {or} [D]"
+      },
+      {
+        "name": "Mazinga",
+        "input": ":hcb::hcb:+[B] {or} [D]"
+      }
+    ],
+    "{superDesperationMove}": [
+      {
+        "name": "Dai Tetsujin",
+        "input": ":qcf::df::qcb:+[B]+[D]"
+      },
+      {
+        "name": "Mazinga",
+        "input": ":hcb::hcb:+[B]+[D]"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "duringOpponentAttack": "during an opponent's attack"
+    },
+    "portuguese": {
+      "duringOpponentAttack": "durante um ataque do oponente"
+    }
+  }
+}
