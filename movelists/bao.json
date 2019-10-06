@@ -36,6 +36,10 @@
         "input": ":df:+[B]"
       },
       {
+        "name": "Sliding",
+        "input": ":d:+[D]"
+      },
+      {
         "name": "Rikatsushu",
         "input": ":df:+[D]"
       },
@@ -50,10 +54,6 @@
       {
         "name": "Wall Jump",
         "input": "{duringJumpNearWall}, :uf:"
-      },
-      {
-        "name": "Sliding",
-        "input": ":d:+[D]"
       }
     ],
     "{specialMoves}": [
