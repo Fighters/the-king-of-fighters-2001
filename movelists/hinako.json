@@ -1,0 +1,88 @@
+{
+  "names": {
+    "default": {
+      "roman": "Hinako"
+    },
+    "japan": {
+      "roman": "Hinako",
+      "original": "四条 雛子"
+    }
+  },
+  "images": {
+    "face": "hinako.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Tasuki Nage",
+        "input": "{close}, :b: {or} :f:+[C]"
+      },
+      {
+        "name": "Uwate Nage",
+        "input": "{close}, :b: {or} :f:+[D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Maemitsu Tataki",
+        "input": ":df:+[A]"
+      },
+      {
+        "name": "Ketaguri",
+        "input": ":df:+[D]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Tsukidashi",
+        "input": "{tap} [A] {or} [C] {repeatedly}"
+      },
+      {
+        "name": "Tsukiotoshi",
+        "input": ":qcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Yorikiri",
+        "input": ":dp:+[B] {or} [D]"
+      },
+      {
+        "name": "Kotenage",
+        "input": ":hcf:+[B] {or} [D]"
+      },
+      {
+        "name": "Kakenage",
+        "input": ":hcb::f:+[B] {or} [D]"
+      },
+      {
+        "name": "Gaburiyori",
+        "input": ":hcb::f:+[A] {or} [C]"
+      },
+      {
+        "name": "Ketaguri",
+        "input": ":b::db::d:+[B] {or} [D]",
+        "after": "Gaburiyori"
+      },
+      {
+        "name": "Hatakikomi",
+        "input": ":f::df::d:+[A] {or} [C]",
+        "after": "Gaburiyori"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Dai Ichiban",
+        "after": ":qcf::qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Gassho Hineri",
+        "input": ":hcf::hcf:+[B] {or} [D]"
+      }
+    ],
+    "{superDesperationMoves}": [
+      {
+        "name": "Gassho Hineri",
+        "input": ":hcf::hcf:+[B]+[D]"
+      }
+    ]
+  }
+}
