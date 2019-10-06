@@ -1,0 +1,83 @@
+{
+  "names": {
+    "default": {
+      "roman": "Kim"
+    },
+    "japan": {
+      "roman": "Kim",
+      "original": "キム・カッファン"
+    }
+  },
+  "images": {
+    "face": "kim.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Kubikime Otoshi",
+        "input": "{close}, :b: {or} :f:+[C]"
+      },
+      {
+        "name": "Sakkyaku Nage",
+        "input": "{close}, :b: {or} :f:+[D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Kurengeki",
+        "input": ":f:+[A]"
+      },
+      {
+        "name": "Neri Chagi",
+        "input": ":f:+[B]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Hienzan",
+        "input": "{charge} :d: :u:+[B] {or} [D]"
+      },
+      {
+        "name": "Tenshozan",
+        "input": "{charge} :d: :u:+[D] > :d:+[D]"
+      },
+      {
+        "name": "Hangetsuzan",
+        "input": ":qcb:+[B] {or} [D]"
+      },
+      {
+        "name": "Hakikyaku",
+        "input": ":d::d:+[B] {or} [D]"
+      },
+      {
+        "name": "Double Dechagi",
+        "input": ":dp:+[B] {or} [D]",
+        "after": "Hakikyaku"
+      },
+      {
+        "name": "Hishokyaku",
+        "input": "{inAir}, :qcf:+[B] {or} [D]"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Hououkyaku",
+        "input": ":qcb::db::f:+[B] {or} [D] ({airOK})"
+      },
+      {
+        "name": "Houou Hitenkyaku",
+        "input": ":qcf::qcf:+[B] {or} [D]"
+      },
+      {
+        "name": "Houou Tenbukyaku",
+        "input": "{inAir}, :qcf::qcf:+[B] {or} [D]"
+      }
+    ],
+    "{superDesperationMoves}": [
+      {
+        "name": "Hououkyaku",
+        "input": ":qcb::db::f:+[B]+[D] ({airOK})"
+      }
+    ]
+  }
+}
