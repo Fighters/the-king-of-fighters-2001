@@ -1,0 +1,83 @@
+{
+  "names": {
+    "default": {
+      "roman": "Lin"
+    },
+    "japan": {
+      "roman": "Lin",
+      "original": "麟"
+    }
+  },
+  "images": {
+    "face": "lin.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Akuzan",
+        "input": "{close}, :b: {or} :f:+[C] {or} [D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Benpatsuken (Chudan)",
+        "input": ":f:+[A]"
+      },
+      {
+        "name": "Benpatsuken (Gedan)",
+        "input": ":df:+[C]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Tetsuzanbu: Rasetsu",
+        "input": ":qcf:+[A] {or} [C]",
+        "extraInfo": "{tetsuzanbuButton}"
+      },
+      {
+        "name": "Muei Kosashu",
+        "input": ":dp:+[A] {or} [C]"
+      },
+      {
+        "name": "Kasumi",
+        "input": ":qcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Jatotsuga",
+        "input": ":rdp:+[A] {or} [B] {or} [C] {or} [D]"
+      },
+      {
+        "name": "Hitenkyaku",
+        "input": ":hcb:+[B] {or} [D]"
+      },
+      {
+        "name": "Himokyaku",
+        "input": ":hcf:+[B] {or} [D]"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Ranbu Dokuga",
+        "input": ":qcb::db::qcf:+[A] {or} [C]"
+      }
+    ],
+    "{superDesperationMoves}": [
+      {
+        "name": "Ranbu Dokuga",
+        "input": ":qcb::db::qcf:+[A]+[C]"
+      },
+      {
+        "name": "Senju Rakansatsu",
+        "input": ":d::d::d:+[A]+[C]"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "tetsuzanbuButton": "[C] version {upTo3x}"
+    },
+    "portuguese": {
+      "tetsuzanbuButton": "versão com [C] {upTo3x}"
+    }
+  }
+}
