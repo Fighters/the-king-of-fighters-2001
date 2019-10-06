@@ -1,0 +1,78 @@
+{
+  "names": {
+    "default": {
+      "roman": "Heidern"
+    },
+    "japan": {
+      "roman": "Heidern",
+      "original": "ハイデルン"
+    }
+  },
+  "images": {
+    "face": "heidern.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Lead Belcher",
+        "input": "{close}, :b: {or} :f:+[C]"
+      },
+      {
+        "name": "Backstabbing",
+        "input": "{close}, :b: {or} :f:+[D]"
+      },
+      {
+        "name": "Critical Drive",
+        "input": "{inAirAndClose}, :b: {or} :d: {or} :f:+[C]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Shooter Narnagel",
+        "input": ":f:+[B]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Cross Cutter",
+        "input": ":qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Moon Slasher",
+        "input": ":dp:+[A] {or} [C]"
+      },
+      {
+        "name": "Neck Roller",
+        "input": ":dp:+[B] {or} [D]"
+      },
+      {
+        "name": "Storm Bringer",
+        "input": ":hcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Killing Bringer",
+        "input": ":hcb:+[B] {or} [D]"
+      }
+    ],
+    "{desperationMove}": [
+      {
+        "name": "Final Bringer",
+        "input": ":qcf::qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Heidern End",
+        "input": ":qcb::db::qcf:+[B] {or} [D]"
+      }
+    ],
+    "{superDesperationMove}": [
+      {
+        "name": "Final Bringer",
+        "input": ":qcf::qcf:+[A]+[C]"
+      },
+      {
+        "name": "Heidern End",
+        "input": ":qcb::db::qcf:+[B]+[D]"
+      }
+    ]
+  }
+}
