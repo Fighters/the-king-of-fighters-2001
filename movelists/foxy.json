@@ -1,0 +1,107 @@
+{
+  "names": {
+    "default": {
+      "roman": "Foxy"
+    },
+    "japan": {
+      "roman": "Foxy",
+      "original": "フォクシー"
+    }
+  },
+  "images": {
+    "face": "foxy.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "3rd Key",
+        "input": "{close}, :b: {or} :f:+[C]"
+      },
+      {
+        "name": "12th Key",
+        "input": "{close}, :b: {or} :f:+[D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "7 Metals",
+        "input": ":f:+[A]"
+      },
+      {
+        "name": "7 Minerals",
+        "input": ":df:+[A]"
+      },
+      {
+        "name": "7 Circulations",
+        "input": ":f:+[B]"
+      },
+      {
+        "name": "7 Distillations",
+        "input": ":df:+[B]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Unicorn Horn",
+        "input": ":qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Prenilnium",
+        "input": ":dp:+[A] {or} [C]"
+      },
+      {
+        "name": "Tree of Knowledge",
+        "input": ":qcf:+[B] {or} [D]"
+      },
+      {
+        "name": "Moon Silver",
+        "input": ":f:+[A] {or} [C]",
+        "after": "Tree of Knowledge"
+      },
+      {
+        "name": "Tree of Beginning",
+        "input": ":hcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Memory of Noah",
+        "input": "[A] {or} [C]",
+        "after": "Tree of Beginning"
+      },
+      {
+        "name": "7 Stars",
+        "input": ":b:+[B] {or} [D]",
+        "after": "Tree of Beginning"
+      },
+            {
+        "name": "Atmospheric Adoration",
+        "input": ":dp:+[B] {or} [D]"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Song of Swan",
+        "input": ":qcf::qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Moon Silver",
+        "input": ":f:+[A] {or} [C]",
+        "after": "Song of Swan"
+      },
+      {
+        "name": "Tree of Knowledge",
+        "input": ":d:+[B] {or} [D]",
+        "after": "Song of Swan"
+      }
+    ],
+    "{superDesperationMoves}": [
+      {
+        "name": "Pray of Planet",
+        "input": "{inAir}, :qcf::qcf:+[A]+[C]"
+      },
+      {
+        "name": "Honeybee",
+        "input": ":qcf::qcf::qcf::qcf:+[B]+[D]"
+      }
+    ]
+  }
+}
