@@ -1,0 +1,159 @@
+{
+  "names": {
+    "default": {
+      "roman": "May Lee"
+    },
+    "japan": {
+      "roman": "May Lee",
+      "original": "メイ・リー"
+    }
+  },
+  "images": {
+    "face": "maylee.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "{normalMode}": [
+          {
+            "name": "Omote Enbu",
+            "input": "{close}, :b: {or} :f:+[C]"
+          },
+          {
+            "name": "Ura Enbu",
+            "input": "{close}, :b: {or} :f:+[D]"
+          }
+        ]
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Henshin",
+        "input": "[A]+[B]+[C]"
+      },
+      {
+        "{normalMode}": [
+          {
+            "name": "Kusetsugeki",
+            "input": ":f:+[B]"
+          }
+        ]
+      },
+      {
+        "{heroMode}": [
+          {
+            "name": "Hero's Guard",
+            "input": ":f:+[A]"
+          },
+          {
+            "name": "Sliding",
+            "input": ":df:+[B]"
+          }
+        ]
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "{normalMode}": [
+          {
+            "name": "Gadahanshu",
+            "input": ":hcb:+[B] {or} [D]"
+          },
+          {
+            "name": "Sanrenkyaku: Mawashigeri",
+            "input": ":qcf:+[B] {or} [D]",
+            "extraInfo": "{sanrenkyakuObs}"
+          },
+          {
+            "name": "Sanrenkyaku: Kakato Otoshi",
+            "input": ":dp:+[B]",
+            "extraInfo": "{sanrenkyakuObs}"
+          },
+          {
+            "name": "Sanrenkyaku: Gedangeri",
+            "input": ":dp:+[D]",
+            "extraInfo": "{sanrenkyakuObs}"
+          },
+          {
+            "name": "Sanrenkyaku: Ushiro Mawashigeri",
+            "input": "{sanrenUshiro}, :hcb:+[B]",
+            "extraInfo": "{sanrenkyakuObs}"
+          },
+          {
+            "name": "Sanrenkyaku: Ushiro Mawashigeri - Henshin",
+            "input": "{sanrenUshiro}, :hcb:+[D]",
+            "extraInfo": "{sanrenUshiro2}"
+          }
+        ]
+      },
+      {
+        "{heroMode}": [
+          {
+            "name": "Full Swing Chop",
+            "input": ":qcf:+[A] {or} [C]"
+          },
+          {
+            "name": "May Lee Chooop!",
+            "input": ":qcf:+[A] {or} [C]"
+          },
+          {
+            "name": "May Lee Kiiick!",
+            "input": "{inAir}, :qcf:+[B] {or} [D]"
+          },
+          {
+            "name": "May Lee Break",
+            "input": ":hcb::f:+[A] {or} [C]"
+          }
+        ]
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "{normalMode}": [
+          {
+            "name": "Ryu Getsurinkyaku",
+            "input": ":qcf::qcf:+[B] {or} [D]"
+          },
+          {
+            "name": "Shinjukyaku",
+            "input": ":qcb::qcb:+[B] {or} [D]"
+          }
+        ]
+      },
+      {
+        "{heroMode}": [
+          {
+            "name": "May Lee Dynamic!",
+            "input": "{inAir}, :qcf::qcf:+[A] {or} [C]"
+          }
+        ]
+      }
+    ],
+    "{superDesperationMoves}": [
+      {
+        "{heroMode}": [
+          {
+            "name": "May The End",
+            "input": ":qcf::qcf:+[A]+[C]"
+          }
+        ]
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "normalMode": "Normal Mode",
+      "heroMode": "Hero Mode",
+      "sanrenkyakuObs": "can be used in a chain of 3 attacks with the other Sanrenkyaku moves",
+      "sanrenUshiro": "after other Sanrenkyaku attacks",
+      "sanrenUshiro2": "ends the Sanrenkyaku chain."
+    },
+    "portuguese": {
+      "normalMode": "Modo Normal",
+      "heroMode": "Modo Hero",
+      "sanrenkyakuObs": "pode ser usado em uma sequência de 3 ataques com os outros golpes Sanrenkyaku",
+      "sanrenUshiro": "após outros ataques Sanrenkyaku",
+      "sanrenUshiro2": "encerra a sequência de Sanrenkyaku."
+    }
+  }
+}
