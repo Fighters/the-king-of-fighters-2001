@@ -1,0 +1,68 @@
+{
+  "names": {
+    "default": {
+      "roman": "Igniz"
+    },
+    "japan": {
+      "roman": "Igniz",
+      "original": "イグニス"
+    }
+  },
+  "images": {
+    "face": "igniz.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Blue Noah",
+        "input": "{close}, :b: {or} :f:+[C]"
+      },
+      {
+        "name": "Red Noah",
+        "input": "{close}, :b: {or} :f:+[D]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Cain Blade Transaxial Slice",
+        "input": ":qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Cain Blade Sagittarius Slice",
+        "input": ":dp:+[A] {or} [C]"
+      },
+      {
+        "name": "Divine Arrow: Air",
+        "input": ":qcb:+[A]"
+      },
+      {
+        "name": "Divine Arrow: Ground",
+        "input": ":qcb:+[C]"
+      },
+      {
+        "name": "Nega Genesis",
+        "input": ":qcb:+[B] {or} [D]"
+      },
+      {
+        "name": "Void Genocide",
+        "input": ":qcf:+[B] {or} [D]"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Chaos Tide",
+        "input": ":dp:+[B] {or} [D]"
+      },
+      {
+        "name": "Aedion Blade",
+        "input": ":qcf::qcf:+[A] {or} [C]"
+      }
+    ],
+    "{superDesperationMoves}": [
+      {
+        "name": "Brutal God Project",
+        "input": ":qcf::df::qcb:+[A]+[C]"
+      }
+    ]
+  }
+}
