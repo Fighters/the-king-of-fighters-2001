@@ -88,7 +88,7 @@
       },
       {
         "name": "Toki Tsubute",
-        "input": "{inAirAndClose}, :d:+[B] {or} [D]",
+        "input": "{inAirAndClose}, :d:+[D]",
         "after": "Musasabi no Mai",
         "extraInfo": "{musasabiNoMaiFollowups}"
       },

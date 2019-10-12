@@ -50,15 +50,15 @@
           "original": "ザ・キング・オブ・ファイターズ 2001",
           "releaseDate": "03-14-2002",
           "developer": "Eolith",
-          "publisher": "Sun Amusement",
+          "publisher": "Eolith",
           "coverFront": "ng-jp-front.webp"
         },
         {
-          "region": "Japan",
+          "region": "United States",
           "roman": "The King of Fighters 2001",
           "releaseDate": "03-14-2002",
           "developer": "Eolith",
-          "publisher": "Eolith",
+          "publisher": "Sun Amusement",
           "coverFront": "ng-us-front.webp"
         }
       ]

@@ -111,7 +111,7 @@
           },
           {
             "name": "A Full Moon Evening",
-            "input": ":qcb::+[A] {or} [C]"
+            "input": ":qcb:+[A] {or} [C]"
           },
           {
             "name": "Ride Your Cycle",

@@ -100,7 +100,7 @@
     "{superDesperationMoves}": [
       {
         "name": "M. Dynamite Swing",
-        "input": ":[A] > [A] > :b: > [B] > [C]"
+        "input": "[A] > [A] > :b: > [B] > [C]"
       }
     ]
   }
