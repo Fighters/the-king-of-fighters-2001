@@ -1,657 +1,111 @@
-{
-  "romans": {
-    "regions": [
-      {
-        "region": "default",
-        "roman": "The King of Fighters 2001"
-      },
-      {
-        "region": "japan",
-        "roman": "The King of Fighters 2001",
-        "original": "ザ・キング・オブ・ファイターズ 2001"
-      }
-    ],
-    "also-known-as": ["kof 2001", "kof 2k1", "2001", "2k1"]
-  },
-  "platforms": [
-    {
-      "platform": "Arcade",
-      "regions": [
-        {
-          "region": "Japan",
-          "roman": "The King of Fighters 2001",
-          "original": "ザ・キング・オブ・ファイターズ 2001",
-          "releaseDate": "11-15-2001",
-          "developer": "Eolith",
-          "publisher": "Eolith"
-        },
-        {
-          "region": "United States",
-          "roman": "The King of Fighters 2001",
-          "releaseDate": "11-15-2001",
-          "developer": "Eolith",
-          "publisher": "Eolith"
-        },
-        {
-          "region": "Europe",
-          "roman": "The King of Fighters 2001",
-          "releaseDate": "11-15-2001",
-          "developer": "Eolith",
-          "publisher": "Eolith"
-        }
-      ]
-    },
-    {
-      "platform": "Neo Geo",
-      "regions": [
-        {
-          "region": "Japan",
-          "roman": "The King of Fighters 2001",
-          "original": "ザ・キング・オブ・ファイターズ 2001",
-          "releaseDate": "03-14-2002",
-          "developer": "Eolith",
-          "publisher": "Eolith",
-          "coverFront": "ng-jp-front.webp"
-        },
-        {
-          "region": "United States",
-          "roman": "The King of Fighters 2001",
-          "releaseDate": "03-14-2002",
-          "developer": "Eolith",
-          "publisher": "Sun Amusement",
-          "coverFront": "ng-us-front.webp"
-        }
-      ]
-    },
-    {
-      "platform": "PlayStation 2",
-      "regions": [
-        {
-          "region": "Japan",
-          "roman": "The King of Fighters 2001",
-          "original": "ザ・キング・オブ・ファイターズ 2001",
-          "releaseDate": "10-23-2003",
-          "developer": "Playmore",
-          "publisher": "Playmore",
-          "coverFront": "ps2-jp-front.webp"
-        }
-      ]
-    },
-    {
-      "platform": "Dreamcast",
-      "regions": [
-        {
-          "region": "Japan",
-          "roman": "The King of Fighters 2001",
-          "original": "ザ・キング・オブ・ファイターズ 2001",
-          "releaseDate": "12-26-2002",
-          "developer": "Playmore",
-          "publisher": "Playmore",
-          "coverFront": "dc-jp-front.webp"
-        }
-      ]
-    },
-    {
-      "platform": "PC",
-      "regions": [
-        {
-          "region": "Korea",
-          "roman": "The King of Fighters 2001",
-          "original": "ザ・キング・オブ・ファイターズ 2001",
-          "releaseDate": "10-27-2003",
-          "developer": "SNK Playmore",
-          "publisher": "SNK Playmore",
-          "coverFront": "pc-ko-front.webp"
-        }
-      ]
-    }
-  ],
-  "characters": [
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "K'"
-        },
-        {
-          "region": "japan",
-          "roman": "K'",
-          "original": "ケイ・ダッシュ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Maxima"
-        },
-        {
-          "region": "japan",
-          "roman": "Maxima",
-          "original": "マキシマ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Whip"
-        },
-        {
-          "region": "japan",
-          "roman": "Whip",
-          "original": "ウィップ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Lin"
-        },
-        {
-          "region": "japan",
-          "roman": "Lin",
-          "original": "麟"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Vanessa"
-        },
-        {
-          "region": "japan",
-          "roman": "Vanessa",
-          "original": "ヴァネッサ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Ramon"
-        },
-        {
-          "region": "japan",
-          "roman": "Ramon",
-          "original": "ラモン"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Benimaru Nikaido"
-        },
-        {
-          "region": "japan",
-          "roman": "Benimaru Nikaido",
-          "original": "二階堂 紅丸"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Shingo Yabuki"
-        },
-        {
-          "region": "japan",
-          "roman": "Shingo Yabuki",
-          "original": "矢吹 真吾"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Seth"
-        },
-        {
-          "region": "japan",
-          "roman": "Seth",
-          "original": "セス"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Terry Bogard"
-        },
-        {
-          "region": "japan",
-          "roman": "Terry Bogard",
-          "original": "テリー・ボガード"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Andy Bogard"
-        },
-        {
-          "region": "japan",
-          "roman": "Andy Bogard",
-          "original": "アンディ・ボガード"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Joe Higashi"
-        },
-        {
-          "region": "japan",
-          "roman": "Joe Higashi",
-          "original": "ジョー・ヒガシ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Blue Mary"
-        },
-        {
-          "region": "japan",
-          "roman": "Blue Mary",
-          "original": "ブルー・マリー"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Ryo Sakazaki"
-        },
-        {
-          "region": "japan",
-          "roman": "Ryo Sakazaki",
-          "original": "リョウ・サカザキ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Robert Garcia"
-        },
-        {
-          "region": "japan",
-          "roman": "Robert Garcia",
-          "original": "ロバート・ガルシア"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "King"
-        },
-        {
-          "region": "japan",
-          "roman": "King",
-          "original": "キング"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Takuma Sakazaki"
-        },
-        {
-          "region": "japan",
-          "roman": "Takuma Sakazaki",
-          "original": "タクマ・サカザキ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Leona Heidern"
-        },
-        {
-          "region": "japan",
-          "roman": "Leona Heidern",
-          "original": "レオナ・ハイデルン"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Ralf Jones"
-        },
-        {
-          "region": "japan",
-          "roman": "Ralf Jones",
-          "original": "ラルフ・ジョーンズ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Clark Still"
-        },
-        {
-          "region": "japan",
-          "roman": "Clark Still",
-          "original": "クラーク・スティル"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Athena Asamiya"
-        },
-        {
-          "region": "japan",
-          "roman": "Athena Asamiya",
-          "original": "麻宮 アテナ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Sie Kensou"
-        },
-        {
-          "region": "japan",
-          "roman": "Sie Kensou",
-          "original": "椎 拳崇"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Chin Gentsai"
-        },
-        {
-          "region": "japan",
-          "roman": "Chin Gentsai",
-          "original": "鎮 元斎"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Bao"
-        },
-        {
-          "region": "japan",
-          "roman": "Bao",
-          "original": "パオ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Mai Shiranui"
-        },
-        {
-          "region": "japan",
-          "roman": "Mai Shiranui",
-          "original": "不知火 舞"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Yuri Sakazaki"
-        },
-        {
-          "region": "japan",
-          "roman": "Yuri Sakazaki",
-          "original": "ユリ・サカザキ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Hinako Shijo"
-        },
-        {
-          "region": "japan",
-          "roman": "Hinako Shijo",
-          "original": "四条 雛子"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Kim Kaphwan"
-        },
-        {
-          "region": "japan",
-          "roman": "Kim Kaphwan",
-          "original": "キム・カッファン"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Chang Koehan"
-        },
-        {
-          "region": "japan",
-          "roman": "Chang Koehan",
-          "original": "チャン・コーハン"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Choi Bounge"
-        },
-        {
-          "region": "japan",
-          "roman": "Choi Bounge",
-          "original": "チョイ・ボンゲ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Kyo Kusanagi"
-        },
-        {
-          "region": "japan",
-          "roman": "Kyo Kusanagi",
-          "original": "草薙 京"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Iori Yagami"
-        },
-        {
-          "region": "japan",
-          "roman": "Iori Yagami",
-          "original": "八神 庵"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Kula Diamond"
-        },
-        {
-          "region": "japan",
-          "roman": "Kula Diamond",
-          "original": "クーラ・ダイアモンド"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Zero"
-        },
-        {
-          "region": "japan",
-          "roman": "Zero",
-          "original": "ゼロ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Goro Daimon"
-        },
-        {
-          "region": "japan",
-          "roman": "Goro Daimon",
-          "original": "大門 五郎"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Heidern"
-        },
-        {
-          "region": "japan",
-          "roman": "Heidern",
-          "original": "ハイデルン"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Li Xiangfei"
-        },
-        {
-          "region": "japan",
-          "roman": "Li Xiangfei",
-          "original": "李 香緋"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "May Lee"
-        },
-        {
-          "region": "japan",
-          "roman": "May Lee",
-          "original": "メイ・リー"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Foxy"
-        },
-        {
-          "region": "japan",
-          "roman": "Foxy",
-          "original": "フォクシー"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "K9999"
-        },
-        {
-          "region": "japan",
-          "roman": "K9999",
-          "original": "ケイフォーナイン"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Angel"
-        },
-        {
-          "region": "japan",
-          "roman": "Angel",
-          "original": "アンヘル"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Igniz"
-        },
-        {
-          "region": "japan",
-          "roman": "Igniz",
-          "original": "イグニス"
-        }
-      ]
-    }
-  ]
+{"names": [
+	{
+		"region": "default",
+		"roman": "The King of Fighters 2001"
+	},
+	{
+		"region": "japan",
+		"roman": "The King of Fighters 2001",
+		"original": "ザ・キング・オブ・ファイターズ 2001"
+	}
+],
+"also-known-as": [
+	"kof 2001",
+	"kof 2k",
+	"2001",
+	"2k1"
+],
+	"platforms": [
+		{
+			"name": "Arcade",
+			"regions": [
+				{
+					"name": "Japan",
+					"roman": "The King of Fighters 2001",
+					"original": "ザ・キング・オブ・ファイターズ 2001",
+					"releaseDate": "11-15-2001",
+					"developer": "Eolith",
+					"publisher": "Eolith"
+				},
+				{
+					"name": "United States",
+					"roman": "The King of Fighters 2001",
+					"releaseDate": "11-15-2001",
+					"developer": "Eolith",
+					"publisher": "Eolith"
+				},
+				{
+					"name": "Europe",
+					"roman": "The King of Fighters 2001",
+					"releaseDate": "11-15-2001",
+					"developer": "Eolith",
+					"publisher": "Eolith"
+				}
+			]
+		},
+		{
+			"name": "Neo Geo",
+			"regions": [
+				{
+					"name": "Japan",
+					"roman": "The King of Fighters 2001",
+					"original": "ザ・キング・オブ・ファイターズ 2001",
+					"releaseDate": "03-14-2002",
+					"developer": "Eolith",
+					"publisher": "Eolith",
+					"coverFront": "ng-jp-front.webp"
+				},
+				{
+					"name": "United States",
+					"roman": "The King of Fighters 2001",
+					"releaseDate": "03-14-2002",
+					"developer": "Eolith",
+					"publisher": "Sun Amusement",
+					"coverFront": "ng-us-front.webp"
+				}
+			]
+		},
+		{
+			"name": "PlayStation 2",
+			"regions": [
+				{
+					"name": "Japan",
+					"roman": "The King of Fighters 2001",
+					"original": "ザ・キング・オブ・ファイターズ 2001",
+					"releaseDate": "10-23-2003",
+					"developer": "Playmore",
+					"publisher": "Playmore",
+					"coverFront": "ps2-jp-front.webp"
+				}
+			]
+		},
+		{
+			"name": "Dreamcast",
+			"regions": [
+				{
+					"name": "Japan",
+					"roman": "The King of Fighters 2001",
+					"original": "ザ・キング・オブ・ファイターズ 2001",
+					"releaseDate": "12-26-2002",
+					"developer": "Playmore",
+					"publisher": "Playmore",
+					"coverFront": "dc-jp-front.webp"
+				}
+			]
+		},
+		{
+			"name": "PC",
+			"regions": [
+				{
+					"name": "Korea",
+					"roman": "The King of Fighters 2001",
+					"original": "ザ・キング・オブ・ファイターズ 2001",
+					"releaseDate": "10-27-2003",
+					"developer": "SNK Playmore",
+					"publisher": "SNK Playmore",
+					"coverFront": "pc-ko-front.webp"
+				}
+			]
+		}
+	]
 }
