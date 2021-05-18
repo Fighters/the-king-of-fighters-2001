@@ -1,20 +1,21 @@
-{"names": [
-	{
-		"region": "default",
-		"roman": "The King of Fighters 2001"
-	},
-	{
-		"region": "japan",
-		"roman": "The King of Fighters 2001",
-		"original": "ザ・キング・オブ・ファイターズ 2001"
-	}
-],
-"also-known-as": [
-	"kof 2001",
-	"kof 2k",
-	"2001",
-	"2k1"
-],
+{
+	"names": [
+		{
+			"region": "default",
+			"roman": "The King of Fighters 2001"
+		},
+		{
+			"region": "japan",
+			"roman": "The King of Fighters 2001",
+			"original": "ザ・キング・オブ・ファイターズ 2001"
+		}
+	],
+	"also-known-as": [
+		"kof 2001",
+		"kof 2k",
+		"2001",
+		"2k1"
+	],
 	"platforms": [
 		{
 			"name": "Arcade",
